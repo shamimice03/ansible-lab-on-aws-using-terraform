@@ -9,4 +9,8 @@ ${ip}
 ${ip}
 %{ endfor ~}
 
+[linux:children]
+amazon_linux
+ubuntu
+
 EOF
