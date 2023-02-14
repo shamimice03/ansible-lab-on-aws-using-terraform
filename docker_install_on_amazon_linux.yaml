@@ -1,0 +1,8 @@
+- hosts: amazon_linux
+  tasks:
+    - name: Update All Packages"
+      yum:
+          update_cache: yes
+          update_only: yes
+          state: latest
+     

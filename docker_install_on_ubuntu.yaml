@@ -1,0 +1,7 @@
+- hosts: ubuntu
+  tasks:
+    - name: Update All Packages
+      apt:
+          upgrade: dist
+          update_cache: yes
+          state: latest
