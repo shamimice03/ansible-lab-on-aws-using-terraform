@@ -22,7 +22,7 @@
     - name: Add remote "ubuntu" user to "docker" group
       user:
         name: "{{ ansible_user }}"
-        group: docker
+        groups: docker
         append: yes
       tags:
       - user_group

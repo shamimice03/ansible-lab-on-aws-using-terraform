@@ -43,7 +43,6 @@
         name: docker
         state: started
         enabled: yes
-    
         
     # - name: Create "docker" group
     #   group:
